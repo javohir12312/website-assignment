@@ -1,0 +1,55 @@
+.fresh {
+  background-color: #166064;
+  padding: 50px;
+}
+
+.fresh__inner {
+  position: relative;
+  background-image: url("../../images/freshbg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 450px;
+}
+
+.fresh__text {
+  width: 500px;
+  top: 18%;
+  left: 20%;
+  position: absolute;
+
+  h2 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+
+  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #FFFFFF;
+  }
+
+  button {
+    background: #0D8587;
+    border-radius: 4px;
+    width: 150px;
+    height: 54px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+  }
+}

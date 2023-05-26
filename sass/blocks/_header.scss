@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  position: fixed;
+  background-color: rgba(255, 255, 255,0.7);
+  z-index: 2;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+    li {
+      a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+        transition: 0.3s; background:
+        linear-gradient(to right,gray, cyan, rgba(0, 100, 200, 1));
+      background-size: 100% 0.2em, 0 2em;
+      background-position: 100% 100%, 0 100%;
+      background-repeat: no-repeat;
+      transition: background-size 400ms;
+
+      }
+
+      &:hover {
+       
+
+        a:hover {
+          background-size: 0 0.1em, 100% 0.1em;
+        }
+      }
+
+    }
+  }
+
+  .logo {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    p:nth-child(1) {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      /* identical to box height, or 100% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #1F7CB0;
+    }
+
+    p:nth-child(2) {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      /* identical to box height, or 100% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #2C4A84;
+    }
+  }
+}
+
+.header_icon {
+  display: flex;
+  align-items: center;
+  background-color: #B4E8D5;
+  border-radius: 50%;
+  padding: 10px;
+}

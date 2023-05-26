@@ -1,0 +1,75 @@
+.moments__inner {
+  padding: 40px 0;
+
+  ul {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0;
+
+    li {
+      border-radius: 12px;
+      width: 424px;
+      background-color: #166064;
+
+      h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        /* identical to box height, or 100% */
+
+        text-transform: uppercase;
+
+        /* Blue */
+
+        color: #20AFF7;
+      }
+
+      h3 {
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+
+
+        color: #FFFFFF;
+
+      }
+
+      p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+      }
+
+      * {
+        padding: 0px 20px;
+      }
+
+      img {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.moments {
+  background-image: url("../../images/momentsbg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 50px;
+}

@@ -1,0 +1,41 @@
+.truly {
+  height: 683px;
+  background-image: url("../../images/trulybg.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+
+  h2 {
+    margin: 0;
+  }
+
+  .truly__text {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+
+    h2 {
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 54px;
+      /* or 123% */
+
+
+      color: #FFFFFF;
+    }
+
+    p {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+
+
+      color: #FFFFFF;
+    }
+  }
+}
