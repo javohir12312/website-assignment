@@ -13,6 +13,14 @@
       border-radius: 12px;
       width: 424px;
       background-color: #166064;
+      transition: 0.4s ease;
+      overflow: hidden;
+
+      &:hover{
+        background: rgba(22, 96, 100,0.7);
+        border: 4px solid #166064;
+        transform: scale(1.1);
+      }
 
       h5 {
         font-family: 'Poppins';

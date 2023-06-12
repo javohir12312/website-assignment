@@ -1,27 +1,33 @@
 .hero {
-  width: 100%;
+  max-width: 100%;
   position: relative;
   z-index: 1;
 
   img {
-    width: 100%;
+    max-width: 100%;
     height: 700px;
   }
 }
 
 .hero__text {
-  width: 550px;
+  max-width: 550px;
   position: absolute;
   top: 30%;
   color: white;
   margin-left: 100px;
+
+  
 
   h2 {
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
-    line-height: 6px;
+
+    @media screen and (max-width:610px) {
+      font-weight: 400px;
+      font-size: 20px;
+  }
 
     p {
 
@@ -29,7 +35,12 @@
       font-style: normal;
       font-weight: 700;
       font-size: 44px;
-      line-height: 6px;
+
+      @media screen and (max-width:610px) {
+        font-size: 20px;
+    }
+  
+  
 
       color: #63C0F5;
 
@@ -41,7 +52,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
+
+    
     /* or 175% */
 
     display: flex;
@@ -49,11 +61,16 @@
 
     color: #FFFFFF;
 
+    @media screen and (max-width:610px) {
+      font-size: 12px;
+  }
+
+
   }
 }
 
 .hero_want {
-  width: 1041px;
+  max-width: 1041px;
   height: 120px;
   border-radius: 22px;
   position: absolute;
@@ -63,6 +80,7 @@
   margin: 0 auto;
   background-color: white;
   box-shadow: 0px 10px 10px 0px gray;
+  padding-right: 20px;
 
   display: flex;
   align-items: center;
@@ -73,20 +91,29 @@
     align-items: center;
     justify-content: space-between;
     gap: 5px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:920px) {
+      li {
+        width: 100%;
+      }
+    }
 
     li:nth-child(1) {
       img {
-        width: 20px;
+        max-width: 20px;
         height: 20px;
         top: 40%;
         margin-left: 5px;
       }
-display: flex;
-align-items: center;
-gap: 5px;
+
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
       input {
 
-        width: 220px;
+        max-width: 220px;
         height: 54px;
         background: #EAEAEA;
         border-radius: 4px;
@@ -100,7 +127,7 @@ gap: 5px;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 28px;
+      
           /* identical to box height, or 175% */
 
           display: flex;
@@ -113,17 +140,19 @@ gap: 5px;
 
     li:nth-child(2) {
       img {
-        width: 20px;
+        max-width: 20px;
         height: 20px;
         top: 40%;
         margin-left: 5px;
       }
-display: flex;
-align-items: center;
-gap: 5px;
+
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
       input {
-        
-        width: 120px;
+
+        max-width: 120px;
         height: 54px;
         background: #EAEAEA;
         border-radius: 4px;
@@ -137,7 +166,7 @@ gap: 5px;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 28px;
+      
           /* identical to box height, or 175% */
 
           display: flex;
@@ -150,17 +179,19 @@ gap: 5px;
 
     li:nth-child(3) {
       img {
-        width: 20px;
+        max-width: 20px;
         height: 20px;
         top: 40%;
         margin-left: 5px;
       }
-display: flex;
-align-items: center;
-gap: 5px;
+
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
       input {
 
-        width: 120px;
+        max-width: 120px;
         height: 54px;
         background: #EAEAEA;
         border-radius: 4px;
@@ -174,7 +205,7 @@ gap: 5px;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 28px;
+      
           /* identical to box height, or 175% */
 
           display: flex;
@@ -187,17 +218,19 @@ gap: 5px;
 
     li:nth-child(4) {
       img {
-        width: 20px;
+        max-width: 20px;
         height: 20px;
         top: 40%;
         margin-left: 5px;
       }
-display: flex;
-align-items: center;
-gap: 5px;
+
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
       input {
 
-        width: 120px;
+        max-width: 120px;
         height: 54px;
         background: #EAEAEA;
         border-radius: 4px;
@@ -211,7 +244,7 @@ gap: 5px;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 28px;
+      
           display: flex;
           align-items: center;
           color: #565656;
@@ -222,7 +255,7 @@ gap: 5px;
     li:nth-child(5) {
 
       button {
-        width: 238px;
+        max-width: 238px;
         height: 54px;
         border-radius: 4px;
         outline: none;
@@ -235,7 +268,7 @@ gap: 5px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 28px;
+    
         display: flex;
         align-items: center;
 
